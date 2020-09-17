@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE>
+Heterogeneous parallel architectures
+<BODY>
+<DIV>
+<P> GPUs are motivated from hardware arrays of processors.
+<P> FPGA programming is <B>difficult.
+<P> A Polyhedron must be bounded by <U>affine inequalities.
+<P> Neural networks can be trained efficiently on <I>FPGAs.

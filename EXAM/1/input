@@ -1,0 +1,9 @@
+//Program Parameters
+Let N := 1000
+Let M := 100000
+//Statements
+Let S1(i,j,k) := (A(i,j,k) = 10)
+Let S2(i,j) := (B(i,j) = 1)
+// Polyhedral representation
+S1(i,j,k)-> {i,j,k | 0 <= i < M: 1; 0 <= j < i: 2 ; 0 <= k <= N: 3}
+S2(i,j)-> { i, j| 0 <= i< 10: 2; -10 <= j <= i: 10}
